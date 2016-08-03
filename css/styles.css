@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,700,900);
+
+body {
+  font-family: Lato;
+}
 li {
   display: inline;
 }
@@ -13,11 +17,13 @@ li {
   list-style:none;
 }
 .headerSection {
+  width: inherit;
   height:50px;
   vertical-align: middle;
   padding: 6px 0 8px;
   border-bottom-style: solid;
   border-bottom-width: thin;
+  border-color:lightgrey;
 }
 #socialMediaIcons {
   border-width: thin;
@@ -32,4 +38,32 @@ li {
 }
 #socialMediaIcons:hover {
   background-color: red;
+}
+.toolBarSection {
+  width:inherit;
+  height: 100px;
+  /*background-color: red;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*padding-top: 11px;*/
+  padding-left: 50px;
+  /*position: relative;*/
+
+}
+.logo {
+font-family:Lato;
+ font-weight:600;
+ color:#58c5e1;
+ font-size:18px;
+}
+.toolbarHolder {
+  float: right;
+  width:80%;
+  font-family: Lato;
+  font-size:18px;
+  display:flex;
+  justify-content: space-around;
+  vertical-align: middle;
+  /*background-color: blue;*/
 }
