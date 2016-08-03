@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="accidentApp">
   <head>
     <meta charset="utf-8">
     <title>Roseville Chiropractor | Comprehensive Chiropractic Care in Roseville CA</title>
@@ -44,27 +44,32 @@
           <a ui-sref="home">Home</a>
         </li>
         <li>
-          New Patients
+          New Patients<i class="glyphicon glyphicon-menu-down"></i>
         </li>
         <li>
-          <a ui-sref="">About Us</a>
+          <a ui-sref="aboutUs">About Us</a>
         </li>
         <li>
-          Services
+          Services<i class="glyphicon glyphicon-menu-down"></i>
         </li>
         <li>
-          Wellness Library
+          Wellness Library<i class="glyphicon glyphicon-menu-down"></i>
         </li>
         <li>
-          Testimonials
+          Testimonials<i class="glyphicon glyphicon-menu-down"></i>
         </li>
         <li>
-          <a ui-sref="">Contact</a>
+          <a ui-sref="contact">Contact</a>
         </li>
       </ul>
 
   </div>
+  <div ui-view>
 
-    <script type='text/javascript' src=""
+  </div>
+    <script type="text/javascript" src="https://code.angularjs.org/1.5.0/angular.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+    <script type='text/javascript' src="app.js"></script>
+    <script type='text/javascript' src="controllers/mainCtrl.js"></script>
   </body>
 </html>
