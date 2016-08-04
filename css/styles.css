@@ -45,7 +45,8 @@ li {
   /*background-color: red;*/
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /*align-items:center;*/
+  margin-top: 25px;
   /*padding-top: 11px;*/
   padding-left: 50px;
   /*position: relative;*/
@@ -56,14 +57,21 @@ font-family:Lato;
  font-weight:600;
  color:#58c5e1;
  font-size:18px;
+
 }
 .toolbarHolder {
   float: right;
   width:80%;
   font-family: Lato;
-  font-size:18px;
+  font-size:19px;
   display:flex;
   justify-content: space-around;
-  vertical-align: middle;
+  margin-top: 25px;
+  /*vertical-align: middle;*/
   /*background-color: blue;*/
+}
+.navTab {
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: thin;
 }

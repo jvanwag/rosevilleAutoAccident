@@ -44,7 +44,7 @@ angular.module('accidentApp', ['ui.router'])
       templateUrl: 'views/services/autoAccidentInjuriesTemp.html',
       controller: 'mainCtrl',
     })
-    .state('Chiropractic', {
+    .state('chiropractic', {
       url: '/chiropractic',
       templateUrl: 'views/services/chiropracticTemp.html',
       controller: 'mainCtrl',
