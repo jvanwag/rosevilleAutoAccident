@@ -49,6 +49,7 @@ li {
   margin-top: 25px;
   /*padding-top: 11px;*/
   padding-left: 50px;
+  text-align: center;
   /*position: relative;*/
 
 }
@@ -74,4 +75,38 @@ font-family:Lato;
   border-style: solid;
   border-color: lightgrey;
   border-width: thin;
+  /*padding:10px;*/
+  text-align: center;
+  text-decoration: none;
 }
+.pageLink {
+  color:black;
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  border: none;
+}
+.pageLink:hover {
+  text-decoration: none;
+  color: #58c5e1;
+  background-color: #eff2f7;
+}
+.newPatientsDropdown {
+  margin-top: 50px;
+  /*display: none;*/
+}
+.servicesDropdown {
+  margin-top: 50px;
+  /*display: none;*/
+}
+.wellnessLibraryDropdown {
+  margin-top: 50px;
+  /*display: none;*/
+}
+.testimonialsDropdown {
+  margin-top: 50px;
+  /*display: none;*/
+}
+/*.pageLink:visited {
+  color:black;
+}*/
