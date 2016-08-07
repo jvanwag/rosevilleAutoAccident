@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
-  <body>
+  <body ng-controller="mainCtrl">
     <div class="headerSection">
     <ul class="topLinks" style="list-style:none; float:left">
       <li style="margin-left:10px;">
@@ -43,8 +43,9 @@
         <li>
           <a class="pageLink" ui-sref="home">Home</a>
         </li>
-        <li>
+        <li class ="newPatientsTab">
           New Patients<i class="glyphicon glyphicon-menu-down"></i>
+          <div class="colorNewLine"></div>
           <ul class="newPatientsDropdown">
             <li class="navTab" style="display:block;">
               <button class="pageLink" ui-sref="appointment">Appointment</button>
@@ -64,8 +65,9 @@
         <li>
           <a class="pageLink" ui-sref="aboutUs">About Us</a>
         </li>
-        <li>
+        <li class="servicesTab">
           Services<i class="glyphicon glyphicon-menu-down"></i>
+          <div class="colorSerLine"></div>
           <ul class="servicesDropdown">
             <li class="navTab" style="display:block;">
               <button class="pageLink" ui-sref="appliedKinesiology">Applied Kinesiology</button>
@@ -91,8 +93,9 @@
 
           </ul>
         </li>
-        <li>
+        <li class="wellnessLibraryTab">
           Wellness Library<i class="glyphicon glyphicon-menu-down"></i>
+          <div class="colorWelLine"></div>
           <ul class="wellnessLibraryDropdown">
             <li class="navTab" style="display:block;">
               <button class="pageLink" ui-sref="conditions">Conditions</button>
@@ -109,8 +112,9 @@
 
           </ul>
         </li>
-        <li>
+        <li class = "testimonialsTab">
           Testimonials<i class="glyphicon glyphicon-menu-down"></i>
+          <div class="colorTestLine"></div>
           <ul class = "testimonialsDropdown">
             <li class="navTab" style="display:block;">
               <button class="pageLink" ui-sref="writtenTestimonials">Written Testimonials</button>
@@ -129,6 +133,7 @@
   <div ui-view>
 
   </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script type="text/javascript" src="https://code.angularjs.org/1.5.0/angular.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
     <script type='text/javascript' src="app.js"></script>

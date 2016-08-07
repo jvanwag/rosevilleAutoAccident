@@ -91,21 +91,79 @@ font-family:Lato;
   color: #58c5e1;
   background-color: #eff2f7;
 }
-.newPatientsDropdown {
-  margin-top: 50px;
-  /*display: none;*/
+.newPatientsTab {
+  height: 100%;
+  position: relative;
 }
+.newPatientsDropdown {
+  margin-top: 38px;
+  display: none;
+}
+.colorNewLine {
+  background-color: #58c5e1;
+  height:7px;
+  width: 100px;
+  position: absolute;
+  bottom:0;
+  z-index: 2;
+  left:70px;
+  display:none;
+}
+.servicesTab {
+  height: 100%;
+  position: relative;
+
+}
+
 .servicesDropdown {
-  margin-top: 50px;
-  /*display: none;*/
+  margin-top:38px;
+  display: none;
+}
+.colorSerLine {
+  background-color: #58c5e1;
+  height:7px;
+  width: 100px;
+  position: absolute;
+  bottom:0;
+  z-index: 2;
+  left:70px;
+  display:none;
+}
+.wellnessLibraryTab {
+  height:100%;
+  position: relative;
 }
 .wellnessLibraryDropdown {
-  margin-top: 50px;
-  /*display: none;*/
+  margin-top: 38px;
+  display: none;
+}
+.colorWelLine {
+  background-color: #58c5e1;
+  height:7px;
+  width: 100px;
+  position: absolute;
+  bottom:0;
+  z-index: 2;
+  left:70px;
+  display:none;
+}
+.testimonialsTab {
+  height:100%;
+  position: relative;
 }
 .testimonialsDropdown {
-  margin-top: 50px;
-  /*display: none;*/
+  margin-top: 38px;
+  display: none;
+}
+.colorTestLine {
+  background-color: #58c5e1;
+  height:7px;
+  width: 100px;
+  position: absolute;
+  bottom:0;
+  z-index: 2;
+  left:70px;
+  display:none;
 }
 /*.pageLink:visited {
   color:black;
