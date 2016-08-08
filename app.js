@@ -104,5 +104,15 @@ angular.module('accidentApp', ['ui.router'])
       templateUrl: 'views/contactTemp.html',
       controller: 'mainCtrl',
     })
+    .state('disclaimer', {
+      url:'/disclaimer',
+      templateUrl: 'views/bottom-views/disclaimerTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('privacyPolicy', {
+      url: '/privacy-policy',
+      templateUrl: 'views/bottom-views/privacyTemp.html',
+      controller: 'mainCtrl',
+    })
 
 })
