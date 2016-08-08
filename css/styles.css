@@ -241,6 +241,10 @@ font-family:Lato;
   left:-10px;
   display:none;
 }
+.homePic {
+  width:100%;
+  height:50vh;
+}
 /*.pageLink:visited {
   color:black;
 }*/
