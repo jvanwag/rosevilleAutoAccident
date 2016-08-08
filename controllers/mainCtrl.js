@@ -48,6 +48,18 @@ $(document).ready(function(){
   $('.homeTab').mouseleave(function(){
     $('.colorHomeLine').hide();
   })
+  $('.aboutTab').mouseenter(function(){
+    $('.colorAboutLine').show();
+  })
+  $('.aboutTab').mouseleave(function(){
+    $('.colorAboutLine').hide();
+  })
+  $('.contactTab').mouseenter(function(){
+    $('.colorContactLine').show();
+  })
+  $('.contactTab').mouseleave(function(){
+    $('.colorContactLine').hide();
+  })
 })
 
 

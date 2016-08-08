@@ -228,7 +228,7 @@ font-family:Lato;
   position: absolute;
   bottom:0;
   z-index: 2;
-  left:70px;
+  left:-10px;
   display:none;
 }
 .colorContactLine {
@@ -238,7 +238,7 @@ font-family:Lato;
   position: absolute;
   bottom:0;
   z-index: 2;
-  left:70px;
+  left:-10px;
   display:none;
 }
 /*.pageLink:visited {
