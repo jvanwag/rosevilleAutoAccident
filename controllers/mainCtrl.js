@@ -42,6 +42,12 @@ $(document).ready(function(){
     $('.colorTestLine').slideUp('slow');
     $('.testimonialsTab').css('color','black');
   })
+  $('.homeTab').mouseenter(function(){
+    $('.colorHomeLine').show();
+  })
+  $('.homeTab').mouseleave(function(){
+    $('.colorHomeLine').hide();
+  })
 })
 
 
