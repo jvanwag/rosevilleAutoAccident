@@ -262,6 +262,8 @@ font-family:Lato;
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 50px;
+  display:inline-flex;
+  font-family: "Lato";
 
 }
 .bottomFooter {
@@ -282,6 +284,33 @@ font-family:Lato;
 .contactFootDiv {
   margin-bottom: 30px;
   font-family: "Lato";
+  width: 25%;
+}
+.hoursFootDiv {
+  width: 25%;
+  margin-left: 50px;
+  height: 80%;
+}
+.hoursTable {
+  border: solid;
+  border-width: thin;
+  border-color: lightgrey;
+}
+table {
+  text-align: center;
+  width: 100%;
+  height: 80%;
+  font-family: 'Lato';
+}
+
+td {
+  border:solid;
+  border-width: thin;
+  border-color:lightgrey;
+  text-align: center;
+}
+tr:hover {
+  background-color: white;
 }
 /*.pageLink:visited {
   color:black;
