@@ -291,6 +291,11 @@ font-family:Lato;
   margin-left: 50px;
   height: 80%;
 }
+.facebookFootDiv {
+  width: 25%;
+  margin-left: 50px;
+  height: 80%;
+}
 .hoursTable {
   border: solid;
   border-width: thin;
