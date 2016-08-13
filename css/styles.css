@@ -317,6 +317,28 @@ td {
 tr:hover {
   background-color: white;
 }
+#botsocialMediaIcons {
+  border-width: thin;
+  border-style: solid;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  margin-top: 5px;
+  margin-right: 4px;
+  margin-left: 4px;
+  padding-top: 7px;
+  color:grey;
+  font-size: 20px;
+}
+#botsocialMediaIcons:hover {
+  background-color: red;
+}
+.connectedFootDiv {
+  width: 25%;
+  margin-left: 50px;
+  height: 80%;
+}
 /*.pageLink:visited {
   color:black;
 }*/
