@@ -189,4 +189,124 @@ angular.module('accidentApp', ['ui.router'])
       templateUrl: 'views/wellness-library/blogs/whiplashBlog.html',
       controller: 'mainCtrl',
     })
+    .state('adhdCon', {
+      url: '/adhd',
+      templateUrl: 'views/wellness-library/blogs/adhdTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('allergyCon', {
+      url: '/allergy',
+      templateUrl: 'views/wellness-library/blogs/allergyTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('asthmaCon', {
+      url: '/asthma',
+      templateUrl: 'views/wellness-library/blogs/asthmaTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('autoAccidentsCon', {
+      url: '/auto-accidents',
+      templateUrl: 'views/wellness-library/blogs/autoAccidentsTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('carpalTunnelCon', {
+      url: '/carpal-tunnel',
+      templateUrl: 'views/wellness-library/blogs/carpalTunnelTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('earInfectionCon', {
+      url: '/ear-infection',
+      templateUrl: 'views/wellness-library/blogs/earInfectionTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('fibromyalgiaCon', {
+      url: '/fibromyalgia',
+      templateUrl: 'views/wellness-library/blogs/fibromyalgiaTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('frozenShoulderCon', {
+      url: '/frozen-shoulder',
+      templateUrl: 'views/wellness-library/blogs/frozenShoulderTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('headachesCon', {
+      url: '/headaches',
+      templateUrl: 'views/wellness-library/blogs/headachesTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('lowerBackPainCon', {
+      url: '/lower-back-pain',
+      templateUrl: 'views/wellness-library/blogs/lowerBackPainTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('osteoarthritisCon', {
+      url: '/osteoarthritis',
+      templateUrl: 'views/wellness-library/blogs/osteoarthritisTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('osteoporosisCon', {
+      url: '/osteoporosis',
+      templateUrl: 'views/wellness-library/blogs/osteoporosisTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('pinchedNerveCon', {
+      url: '/pinched-nerves',
+      templateUrl: 'views/wellness-library/blogs/pinchedNerveTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('plantarFasciitisCon', {
+      url: '/plantar-fasciitis',
+      templateUrl: 'views/wellness-library/blogs/plantarFasciitisTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('pregnancyPainCon', {
+      url: '/pregnancy-pain',
+      templateUrl: 'views/wellness-library/blogs/pregnancyPainTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('sciaticaCon', {
+      url: '/sciatica',
+      templateUrl: 'views/wellness-library/blogs/sciaticaTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('scoliosisCon', {
+      url: '/scoliosis',
+      templateUrl: 'views/wellness-library/blogs/scoliosisTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('shoulderPainCon', {
+      url: '/shoulder-pain',
+      templateUrl: 'views/wellness-library/blogs/shoulderPainTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('slippedDiskCon', {
+      url: '/slipped-disk',
+      templateUrl: 'views/wellness-library/blogs/slippedDiskTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('stressCon', {
+      url: '/stress',
+      templateUrl: 'views/wellness-library/blogs/stressTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('tennisElbowCon', {
+      url: '/tennis-elbow',
+      templateUrl: 'views/wellness-library/blogs/tennisElbowTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('upperBackNeckPainCon', {
+      url: '/upper-back-neck-pain',
+      templateUrl: 'views/wellness-library/blogs/upperBackNeckPainTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('whiplashCon', {
+      url: '/whiplash',
+      templateUrl: 'views/wellness-library/blogs/whiplashTemp.html',
+      controller: 'mainCtrl',
+    })
+    .state('workInjuriesCon', {
+      url: '/work-injuries',
+      templateUrl: 'views/wellness-library/blogs/workInjuriesTemp.html',
+      controller: 'mainCtrl',
+    })
 })
