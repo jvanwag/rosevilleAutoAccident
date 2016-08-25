@@ -114,5 +114,79 @@ angular.module('accidentApp', ['ui.router'])
       templateUrl: 'views/bottom-views/privacyTemp.html',
       controller: 'mainCtrl',
     })
-
+    .state('adhdBlog', {
+      url: '/adhd-blog',
+      templateUrl: 'views/wellness-library/blogs/adhdBlog.html',
+      controller: 'mainCtrl',
+    })
+    .state('allergiesBlog', {
+      url: '/allergies-blog',
+      templateUrl: 'views/wellness-library/blogs/allergiesBlog.html',
+      controller: 'mainCtrl',
+    })
+    .state('asthmaTreatmentBlog', {
+      url: '/asthma-treatment-blog',
+      templateUrl: 'views/wellness-library/blogs/asthmaTreatmentBlog.html',
+      controller: 'mainCtrl',
+    })
+    .state('autoAccidentsBlog', {
+      url: '/auto-accidents-blog',
+      templateUrl: 'views/wellness-library/blogs/autoAccidentsBlog.html',
+      controller: 'mainCtrl',
+    })
+    .state('carpalTunnelPainBlog', {
+      url: '/carpal-tunnel-pain-blog',
+      templateUrl: 'views/wellness-library/blogs/carpalTunnelPainBlog.html',
+      controller: 'mainCtrl',
+    })
+    .state('chiropracticStressReliefBlog', {
+      url: '/chiropractic-stress-relief-blog',
+      templateUrl: 'views/wellness-library/blogs/chiropracticStressReliefBlog.html',
+      controller: 'mainCtrl',
+    })
+    .state('chronicStressChiropracticApproachBlog', {
+      url: '/chronic-stress-chiropractic-approach-blog',
+      templateUrl: 'views/wellness-library/blogs/chronicStressChiropracticApproachBlog.html',
+      controller: 'mainCtrl',
+    })
+    .state('earInfectionsBlog', {
+      url: '/ear-infections-blog',
+      templateUrl: 'views/wellness-library/blogs/earInfectionsBlog.html',
+      controller: 'mainCtrl',
+    })
+    .state('migraineReliefBlog', {
+      url: '/migraine-relief-blog',
+      templateUrl: 'views/wellness-library/blogs/migraineReliefBlog.html',
+      controller: 'mainCtrl',
+    })
+    .state('neckAndShoulderPainTreatmentBlog', {
+      url: '/neck-and-shoulder-pain-treatment-blog',
+      templateUrl: 'views/wellness-library/blogs/neckAndShoulderPainTreatmentBlog.html',
+      controller: 'mainCtrl',
+    })
+    .state('pinchedNervesBlog', {
+      url: '/pinched-nerves-blog',
+      templateUrl: 'views/wellness-library/blogs/pinchedNervesBlog.html',
+      controller: 'mainCtrl',
+    })
+    .state('sciaticaBlog', {
+      url: '/sciatica-blog',
+      templateUrl: 'views/wellness-library/blogs/sciaticaBlog.html',
+      controller: 'mainCtrl',
+    })
+    .state('tennisElbowTreatmentBlog', {
+      url: '/tennis-elbow-treatment-blog',
+      templateUrl: 'views/wellness-library/blogs/tennisElbowTreatmentBlog.html',
+      controller: 'mainCtrl',
+    })
+    .state('upperBackPainReliefBlog', {
+      url: '/upper-back-pain-relief-blog',
+      templateUrl: 'views/wellness-library/blogs/upperBackPainReliefBlog.html',
+      controller: 'mainCtrl',
+    })
+    .state('whiplashBlog', {
+      url: '/whiplash-blog',
+      templateUrl: 'views/wellness-library/blogs/whiplashBlog.html',
+      controller: 'mainCtrl',
+    })
 })
