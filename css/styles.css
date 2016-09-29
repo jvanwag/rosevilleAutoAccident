@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,700,900,100,300);
 
 .mainBody {
   font: 400 16px/1.5em "Lato","sans-serif";
@@ -363,6 +363,22 @@ tr:hover {
   width: 25%;
   margin-left: 50px;
   height: 80%;
+}
+.quoteBox {
+  background-color:#ecf0f1;
+  width:75%;
+  z-index:1;
+
+}
+p {
+  color: #606366;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size:18px;
+}
+.paraHolder {
+  margin-right: 15%;
+  margin-left: 15%;
 }
 /*.pageLink:visited {
   color:black;
