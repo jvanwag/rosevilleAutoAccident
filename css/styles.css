@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,700,900,100,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,700,900,100,300,400i);
 
 .mainBody {
   font: 400 16px/1.5em "Lato","sans-serif";
@@ -406,7 +406,6 @@ p {
   display:list-item;
   list-style-type: disc;
 
-
 }
 .midBlueHome {
   height:200px;
@@ -415,6 +414,10 @@ p {
     .midBlueHome {
         height:400px;
     }
+}
+.walloTextHome {
+  margin-left: 20%;
+  margin-right: 20%;
 }
 /*.pageLink:visited {
   color:black;
