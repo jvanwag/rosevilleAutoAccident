@@ -392,6 +392,20 @@ p {
   border-color: lightgrey;
   padding-bottom: 20px;
 }
+.homeMidSect {
+  background-color:#ecf0f1;
+  width:100%;
+  height:100vh;
+  text-align: center;
+  padding: 10px;
+
+}
+.checkLi {
+  color: #606366;
+  display:list-item;
+  list-style-type: disc;
+
+}
 /*.pageLink:visited {
   color:black;
 }*/
