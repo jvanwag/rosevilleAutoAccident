@@ -425,6 +425,39 @@ p {
         margin-right: 5%;
     }
 }
+.testHome {
+  background-color:#ecf0f1;
+  padding: 50px;
+  display: flex;
+  justify-content:center;
+}
+.bottomHomeLinks {
+  margin-right: 250px;
+  margin-left: 250px;
+  display:flex;
+  justify-content:space-around;
+  text-align: left;
+}
+.botlink {
+  text-align: left;
+
+}
+.botLinker, #botLinker {
+  text-decoration: none;
+  color: #606366;
+
+}
+.botLinker:hover, #botLinker:hover {
+  text-decoration: none;
+  color:#58c5e1;
+}
+.homeReadLink {
+  text-decoration: none;
+  color: #58c5e1;
+  font-size: 18px;
+  margin-left: 10px;
+
+}
 /*.pageLink:visited {
   color:black;
 }*/
