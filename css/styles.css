@@ -464,6 +464,28 @@ p {
   border-color: lightgrey;
   margin-right: 20%;
   margin-left: 20%;
+  margin-top:5vh;
+}
+.headerSubBar {
+  background-color:black;
+  width:100%;
+  height:30vh;
+  text-align: center;
+  padding:10vh;
+}
+.headerSWHolder {
+  display: flex;
+  justify-content: center;
+}
+.headerSubBarLink, .headerSubBarS {
+  text-decoration: none;
+  color:white;
+  font-size: 18px;
+
+}
+.headerSubBarLink:hover, .headerSubBarS:hover {
+  text-decoration: underline;
+  color:white;
 }
 /*.pageLink:visited {
   color:black;
