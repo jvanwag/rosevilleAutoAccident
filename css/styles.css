@@ -458,6 +458,13 @@ p {
   margin-left: 10px;
 
 }
+.faqParas {
+  border-bottom-style:solid;
+  border-width: thin;
+  border-color: lightgrey;
+  margin-right: 20%;
+  margin-left: 20%;
+}
 /*.pageLink:visited {
   color:black;
 }*/
