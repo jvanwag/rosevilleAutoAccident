@@ -487,6 +487,23 @@ p {
   text-decoration: underline;
   color:white;
 }
+.subHeader {
+  font-size:24px;
+  font-weight:300;
+}
+.halfPagePara {
+  width:50%;
+}
+.firstVisitPara {
+  border-bottom-style:solid;
+  border-width: thin;
+  border-color: lightgrey;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top:5vh;
+  display: flex;
+  justify-content:space-around;
+}
 /*.pageLink:visited {
   color:black;
 }*/
